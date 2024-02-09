@@ -1,0 +1,177 @@
+@import url(./fonts.css);
+/* CUSTOMS PROPS */
+:root {
+  --dark: #111517;
+  --grey: #848484;
+  --bg-color: #fafafa;
+  --nunitoSans: "NunitoSans";
+  --white: #fff;
+  --bagraund-color:#fff;
+}
+/* GLOBAL CSS*/
+
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+/* CONTAINER */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: var(--nunitoSans);
+}
+
+/* css */
+/* SITE HEADER */
+.site-header {
+  width: 100%;
+  padding: 24px 0;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  background: var(--white);
+}
+.site-header__logo {
+  color: #111517;
+  font-size: 24px;
+  font-weight: 800;
+}
+.site-darkmode {
+  border: unset;
+  background-color: transparent;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  color: #111517;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* SITE HEADER */
+.site-main {
+  padding-top: 48px;
+  padding-bottom: 45px;
+}
+/* site main */
+.serch {
+}
+.container {
+}
+.row {
+}
+.serch-icon {
+  color: var(--grey);
+}
+.justify-content-between {
+}
+.col-5 {
+}
+.input-group {
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  background-color: var(--bagraund-color);
+
+}
+.mb-3 {
+}
+.input-group-text {
+  background-color: var(--white);
+  border: unset;
+  background-color: var(--bagraund-color);
+
+
+}
+.fa-light {
+}
+.fa-magnifying-glass {
+}
+.form-control {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  column-gap: 24px;
+  border-left: unset;
+  border: unset;
+  background-color: var(--bagraund-color);
+
+}
+.form-control::placeholder{
+  font-size: 14PX;
+  font-weight: 400;
+  color: var(--grey);
+  line-height: 20px;
+}
+.col-2 {
+}
+.form-select {
+  padding: unset;
+  padding: 15px 22px 15px 24px;
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: var(--nunitoSans);
+  border: unset;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.form-select >option{
+  border: unset;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--dark);
+}
+
+.countries {
+
+}
+.card {
+  border: unset;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+.card-body {
+  padding: unset;
+  padding: 24px 26px;
+  background-color: var(--bagraund-color);
+  overflow: hidden;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+.card-text {
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+.card-text span{
+  font-weight: 600;
+}

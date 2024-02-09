@@ -1,0 +1,9 @@
+@media(prefers-color-schrmr:dark){
+    :root{
+        --dark:#fff;
+        --grey:#fff;
+        --bg-color:#202c36;
+        --white:#2B3844;
+        --bagraund-color:#2B3844;
+    }
+}
